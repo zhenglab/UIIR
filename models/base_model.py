@@ -8,8 +8,6 @@ from . import base_networks as networks
 
 
 class BaseModel(ABC):
-    
-
     def __init__(self, opt):
        
         self.opt = opt
