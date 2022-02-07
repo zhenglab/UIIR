@@ -10,7 +10,6 @@ from .patchnce import PatchNCELoss
 import util.ssim as ssim
 import math
 
-
 class NonIdealRASModel(BaseModel):
     @staticmethod
     def modify_commandline_options(parser, is_train=True):
